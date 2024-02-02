@@ -1,0 +1,58 @@
+.head {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  border: 10px solid black;
+  margin: 0 auto;
+}
+
+.torso {
+  width: 10px;
+  height: 170px;
+  background-color: black;
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+}
+
+.left-hand {
+  position: absolute;
+  width: 10px;
+  height: 105px;
+  background-color: black;
+  transform: rotate(30deg);
+  right: 27px;
+  top: 0;
+}
+
+.right-hand {
+  position: absolute;
+  width: 10px;
+  height: 105px;
+  background-color: black;
+  transform: rotate(-30deg);
+  left: 27px;
+  top: 0;
+}
+
+.left-leg {
+  position: absolute;
+  width: 10px;
+  height: 105px;
+  background-color: black;
+  transform: rotate(30deg);
+  right: 27px;
+  top: 151px;
+}
+
+.right-leg {
+  position: absolute;
+  width: 10px;
+  height: 105px;
+  background-color: black;
+  transform: rotate(-30deg);
+  left: 27px;
+  top: 151px;
+}
+
+//breakpoint 1100px
