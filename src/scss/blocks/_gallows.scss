@@ -1,6 +1,8 @@
 .gallows-wrapper {
   position: relative;
   border: 3px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
 
   .corner {
     background-color: rgb(69, 69, 170);
@@ -61,6 +63,7 @@
     justify-items: center;
     align-items: center;
     padding: 60px;
+    max-width: 1440px;
     .gallows-wrapper {
       //background-color: rgb(134, 65, 65);
       width: 100%;

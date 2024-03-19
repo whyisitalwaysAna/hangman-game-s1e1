@@ -1,0 +1,25 @@
+.keyboard-wrapper {
+  height: 200vh;
+  //background-color: rgb(170, 206, 137);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.key {
+  cursor: pointer;
+  width: 70px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(69, 69, 170);
+  border-radius: 10%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}

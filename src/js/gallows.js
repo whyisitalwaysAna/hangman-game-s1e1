@@ -1,6 +1,5 @@
 const body = document.querySelector('body')
 const gallows = document.createElement('div')
-console.log('hihi')
 
 gallows.innerHTML = `
 <div class="container">

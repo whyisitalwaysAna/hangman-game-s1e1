@@ -1,0 +1,18 @@
+.hint-wrapper {
+  width: 100%;
+  grid-template-columns: 1fr 5fr;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.hint {
+  font-weight: 400;
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.question {
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: inline;
+}
